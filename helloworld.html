@@ -1,0 +1,10 @@
+<html>
+	<script src="lib/angular/angular.js"></script>
+	<script src="js/helloworld.js"></script>
+	<body ng-app="helloworld">
+		<div ng-controller="NickCtrl">
+			Enter your name : <input ng-model="inputName"></input>
+			<p>Hello World {{getNick()}}!!</p>
+		</div>
+	</body>
+</html>
