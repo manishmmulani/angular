@@ -2,6 +2,7 @@
 	<title>Desflow</title>
 	<script src="lib/angular/angular.js"></script>
 	<script src="js/desflow.js"></script>
+	<script src="js/desflow_util.js"></script>
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<body ng-app="desflow">
 		<table ng-controller="RequestCtrl" class="table table-striped table-bordered table-condensed">
@@ -11,8 +12,8 @@
 				</th>
 			</tr>
 			<tr ng-repeat="request in requests">
-				<td ng-repeat="field in request track by $index">
-					{{[].concat(field)[0]}}
+				<td ng-repeat="header in headers">
+					{{request[header[1]]}}
 				</td>
 			</tr>
 		</table>
