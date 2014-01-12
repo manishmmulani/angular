@@ -1,0 +1,20 @@
+<html>
+	<title>Desflow</title>
+	<script src="lib/angular/angular.js"></script>
+	<script src="js/desflow.js"></script>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<body ng-app="desflow">
+		<table ng-controller="RequestCtrl" class="table table-striped table-bordered table-condensed">
+			<tr>
+				<th ng-repeat="header in headers">
+					{{header[1]}}
+				</th>
+			</tr>
+			<tr ng-repeat="request in requests">
+				<td ng-repeat="field in request track by $index">
+					{{[].concat(field)[0]}}
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
