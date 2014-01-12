@@ -1,0 +1,1749 @@
+{
+	"sortField": "request_id", "sortOrder": "DESC", "header": [
+    [
+        "severity_id",
+        "Severity",
+        "TYPE",
+        false
+    ],
+    [
+        "request_id",
+        "Req#",
+        "INT",
+        false
+    ],
+    [
+        "subject",
+        "Subject",
+        "STRING",
+        false
+    ],
+    [
+        "category_id",
+        "Category",
+        "TYPE",
+        false
+    ],
+    [
+        "status_id",
+        "Status",
+        "TYPE",
+        false
+    ],
+    [
+        "logger_ids",
+        "Logger",
+        "USER",
+        false
+    ],
+    [
+        "assignee_ids",
+        "Assignee",
+        "USER",
+        false
+    ]
+],
+	"data":
+	[[
+    "High",
+    [
+        9595,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] FW: Deshaw movements for SEB-MACRO/KALON for 20140108",
+    "Alternative Funding",
+    "Closed",
+    "rajeshkk",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        9594,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[Detail Management] Observed SqlMapException exception during search",
+    "Alternative Funding",
+    "Closed",
+    "sarwam",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        9590,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false
+    ],
+    "[AltFund] Changes to book ARTs correctly while performing manual bookings and  when Trade Date = Settle Date",
+    "Alternative Funding",
+    "Open",
+    "kowdeed",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        9585,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Manual booking | DE Shaw sells to RBC  FW: RBC Capital Mkt BUYS 43315 (M) EVERGL 0 04/30/14 144A",
+    "Alternative Funding",
+    "Closed",
+    "rajeshkk",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        9546,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Add alert threshold to portfolio constraints - Code changes",
+    "Alternative Funding",
+    "Open",
+    "mulani",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        9538,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[Alt Fund] Scotia ComPort Deal Setup",
+    "Alternative Funding",
+    "Open",
+    "velezm",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        9537,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Scotia Valport Max Deal Size",
+    "Alternative Funding",
+    "Closed",
+    "velezm",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        9534,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Seed Timeout exception occurred during rebundling process performed on 20131227 on the  book: USEQ/VAL",
+    "Alternative Funding",
+    "Closed",
+    "kowdeed",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        9516,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] FW: Treasury#4348: AltFundApproval HSBC VALPORT TRANCHE 2 20131223",
+    "Alternative Funding",
+    "Closed",
+    "velezm",
+    "mulani"
+],[
+    "Medium",
+    [
+        9515,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Observed the exception when user tries to move the selected positions to workflow.",
+    "Alternative Funding",
+    "Closed",
+    "kowdeed",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        9508,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Error occurred during rebundling process on spn: 10099719, book: USEQ/VAL",
+    "Alternative Funding",
+    "Closed",
+    "kowdeed",
+    "kowdeed,mulani"
+],[
+    "Medium",
+    [
+        9505,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Observed exception when user tries to roll over/cancel the position",
+    "Alternative Funding",
+    "Closed",
+    "sarwam",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        9500,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false
+    ],
+    "[Altfund] Ivy Prod2 | Error - parameter mapping for the 'notificationDate' property",
+    "Alternative Funding",
+    "Open",
+    "afaque",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        9484,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false
+    ],
+    "[Altfund] Please update custodian location",
+    "Alternative Funding",
+    "Closed",
+    "jodhanis",
+    "kowdeed"
+],[
+    "High",
+    [
+        9464,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Manual booking | DE Shaw sells to RBC  FW: RBC Capital Mkt BUYS 43315 (M) EVERGL 0 04/30/14 144A",
+    "Alternative Funding",
+    "Closed",
+    "rajeshkk",
+    "mulani,kowdeed"
+],[
+    "Medium",
+    [
+        9448,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "Exception during caching from AltFundReferenceServiceImpl in Ivy QA",
+    "Alternative Funding",
+    "Closed",
+    "kollipal",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        9445,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Marking the HTB Borrow Position as RED if the position is long at Barclays and the long qty is > the qty of the HTB borrow.",
+    "Alternative Funding",
+    "Awaiting Response",
+    "kowdeed",
+    "kowdeed"
+],[
+    "Low",
+    [
+        9412,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Detail Management - Please do not display the deal amount in exponential format",
+    "Alternative Funding",
+    "Closed",
+    "sarwam",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        9411,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Detail Management - Observed Null XML Response when user tries to select triparty agreement",
+    "Alternative Funding",
+    "Closed",
+    "sarwam",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        9404,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Alt Funding Booking Error",
+    "Alternative Funding",
+    "Closed",
+    "zhuj",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        9386,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[Alt Funding] Trade Booking",
+    "Alternative Funding",
+    "Closed",
+    "velezm",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        9375,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false
+    ],
+    "MarginDev#9734",
+    "Alternative Funding",
+    "Closed",
+    "mulani",
+    "mulani"
+],[
+    "Medium",
+    [
+        9370,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Borrow-Lend optimization in AltFund - Analysis",
+    "Alternative Funding",
+    "Open",
+    "mulani",
+    "mulani"
+],[
+    "Medium",
+    [
+        9347,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] State Street Ocuport - Remove Constraint",
+    "Alternative Funding",
+    "Closed",
+    "velezm",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        9335,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Missing CL reflected on WWW",
+    "Alternative Funding",
+    "Closed",
+    "jodhanis",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        9331,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Exclusive deals - Order the shorts in the order of borrow rates",
+    "Alternative Funding",
+    "Open",
+    "kowdeed",
+    "kowdeed"
+],[
+    "Low",
+    [
+        9329,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Observed AltFund error messages in the logs",
+    "Alternative Funding",
+    "Closed",
+    "sarwam",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        9327,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false
+    ],
+    "[Detail Management] Rule gets failed for a position which is not part of simulated portfolio",
+    "Alternative Funding",
+    "Open",
+    "sarwam",
+    "-"
+],[
+    "Medium",
+    [
+        9316,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Set eligible quantity to 0 for Barclays leg of REDs",
+    "Alternative Funding",
+    "Closed",
+    "rajeshkk",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        9303,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+    ],
+    "[AltFund] Issues in HSBC Valport Tranche2 Deal.",
+    "Alternative Funding",
+    "Open",
+    "kowdeed",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        9301,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+    ],
+    "Incorrect PNL on (WWW US) - USEQ/VAL",
+    "Alternative Funding",
+    "Active",
+    "chinnapr",
+    "hough"
+],[
+    "Medium",
+    [
+        9300,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Cancelling the duplicate CLTs booked.",
+    "Alternative Funding",
+    "Closed",
+    "kowdeed",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        9299,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Remove Rounding on Recommended Quantity in the cases where the Recommended Quantity is less than 1000.",
+    "Alternative Funding",
+    "Closed",
+    "kowdeed",
+    "kowdeed"
+],[
+    "Low",
+    [
+        9296,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Sort the Deals in UI search panel alphabetically",
+    "Alternative Funding",
+    "Open",
+    "sarwam",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        9286,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false
+    ],
+    "[AltFund] HSBC Availability Data Related Changes",
+    "Alternative Funding",
+    "Closed",
+    "kowdeed",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        9285,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Database cleanup tasks in AltFund",
+    "Alternative Funding",
+    "Closed",
+    "kowdeed",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        9279,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[Alt Fund] Trade Amendment",
+    "Alternative Funding",
+    "Closed",
+    "velezm",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        9276,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Deal bookings - Treasury request - changes",
+    "Alternative Funding",
+    "Open",
+    "rajeshkk",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        9273,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false
+    ],
+    "[Project Gerrard] Problem Trade Management - \"DEAL1 DEMOENTITY\" deal is not pre-selected",
+    "Alternative Funding",
+    "Open",
+    "sarwam",
+    "-"
+],[
+    "Medium",
+    [
+        9271,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] FW: Treasury#3950: AltFundApproval HSBC VALPORT TRANCHE 2 20131028",
+    "Alternative Funding",
+    "Closed",
+    "velezm",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        9265,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false
+    ],
+    "[Project Gerrard] Triparty \"DEAL1 DEMOENTITY\" is not present",
+    "Alternative Funding",
+    "Closed",
+    "sarwam",
+    "penmetss"
+],[
+    "Medium",
+    [
+        9260,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Checklist for onboarding a new Alt fund deal",
+    "Alternative Funding",
+    "Closed",
+    "kowdeed",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        9226,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Changes / Enhancements to Locate confirmation evaluator",
+    "Alternative Funding",
+    "Open",
+    "mulani",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        9208,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Filter positions by ECA in AltFund and add support to override CL during CLT bookings",
+    "Alternative Funding",
+    "Closed",
+    "mulani",
+    "mulani"
+],[
+    "Medium",
+    [
+        9187,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+    ],
+    "[AltFund] Finance cost benefit reporting for exclusive Alt fund deals",
+    "Alternative Funding",
+    "Open",
+    "rajeshkk",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        9174,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Introducing default evaluators concept in AltFund",
+    "Alternative Funding",
+    "Open",
+    "mulani",
+    "-"
+],[
+    "Medium",
+    [
+        9173,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+    ],
+    "[Ivy] Rule Compilation Error",
+    "Alternative Funding",
+    "Closed",
+    "sarwam",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        9118,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false
+    ],
+    "[AltFund] Moss prod 1&2 | Rule Compilation error: Rule name - 'Collateral : MV of each BBG industry sector <= 25% of LMV'",
+    "Alternative Funding",
+    "Closed",
+    "afaque",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        9108,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Change to HSBC deal portfolio constraint",
+    "Alternative Funding",
+    "Closed",
+    "rajeshkk",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        9093,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Observed Null Pointer Exception during search",
+    "Alternative Funding",
+    "Closed",
+    "sarwam",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        9090,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Include R2K names as collateral in HSBC Valence Tranche1 deal",
+    "Alternative Funding",
+    "Closed",
+    "kowdeed",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        9079,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] FW: BMC US Merger | Tri Party Positions",
+    "Alternative Funding",
+    "Closed",
+    "rajeshkk",
+    "kowdeed"
+],[
+    "Low",
+    [
+        9076,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+    ],
+    "[AltFund] Unnecessarily \"auto selection of positions failed\" message is shown",
+    "Alternative Funding",
+    "Open",
+    "sarwam",
+    "-"
+],[
+    "Medium",
+    [
+        9075,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Updated  TransactionCaptureConfig of Broker Transfers to Synchronous to position",
+    "Alternative Funding",
+    "Closed",
+    "kowdeed",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        9072,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[Altfund] Adding ETB constraints to Scotia Kalport Deal.",
+    "Alternative Funding",
+    "Closed",
+    "kowdeed",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        9056,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund]Parse_stst_wishlist_file:Failure",
+    "Alternative Funding",
+    "Open",
+    "kowdeed",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        9045,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund ]Please change the deal size on HSBC OCULUS to 750MM",
+    "Alternative Funding",
+    "Closed",
+    "rajeshkk",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        9034,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund]Incorrect CL reflected on Multiple SPNs",
+    "Alternative Funding",
+    "Closed",
+    "johndi",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        9014,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[Alt Fund] Adding ETB constraints to Scotia Valport Deal.",
+    "Alternative Funding",
+    "Closed",
+    "kowdeed",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        9012,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[Alt Fund] ADV Limit in Scotia Deals",
+    "Alternative Funding",
+    "Closed",
+    "velezm",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        9004,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[Alt Fund] Adjusting eligible quantity to minimum of trade date quantity and settle date quantity to avoid dividend related issues",
+    "Alternative Funding",
+    "Closed",
+    "kowdeed",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        9001,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Infra enhancements for BONY Valence deal",
+    "Alternative Funding",
+    "Closed",
+    "mulani",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        8998,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[Alt Fund] HSBC Valence Deal 2",
+    "Alternative Funding",
+    "Awaiting Response",
+    "rajeshkk",
+    "kowdeed,mulani"
+],[
+    "Medium",
+    [
+        8992,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Error occurred during  rebundling process performed on 20130823",
+    "Alternative Funding",
+    "Closed",
+    "kowdeed",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        8972,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] CLT source type from CLT's CA's tri_party_status",
+    "Alternative Funding",
+    "Closed",
+    "sahaa",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        8969,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] SEB KALON Alt fund deal",
+    "Alternative Funding",
+    "Closed",
+    "rajeshkk",
+    "kowdeed"
+],[
+    "Low",
+    [
+        8944,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[Transfer Workflow] Portfolio constraint message is shown multiple times",
+    "Alternative Funding",
+    "Closed",
+    "sarwam",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        8943,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false
+    ],
+    "[Ivy Prod2 Error] NPE at AltFundServiceImpl.getBundleBucket(AltFundServiceImpl.java:374)",
+    "Alternative Funding",
+    "Closed",
+    "kollipal",
+    "kowdeed"
+],[
+    "High",
+    [
+        8940,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[Alt Funding] HSBC Valport Booking Error",
+    "Alternative Funding",
+    "Closed",
+    "velezm",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        8927,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Error occurred during  rebundling process performed on 20130816",
+    "Alternative Funding",
+    "Closed",
+    "kowdeed",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        8926,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false
+    ],
+    "Ivy Prod2 Error: BadSqlGrammarException in TreasuryServiceImpl.addWatchListItem",
+    "Alternative Funding",
+    "Open",
+    "patils",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        8921,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Resolve same field name with distinct type conflicts within same class hierarchy for enabling object flattening",
+    "Alternative Funding",
+    "Closed",
+    "teja",
+    "mulani"
+],[
+    "Medium",
+    [
+        8919,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "Reporting real world boxes as part of Equities rebundling procedure",
+    "Alternative Funding",
+    "Closed",
+    "mulani",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        8916,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+    ],
+    "[AltFund] Radio button occupying a lot of space in Alt fund UI",
+    "Alternative Funding",
+    "Closed",
+    "rajeshkk",
+    "mulani"
+],[
+    "Medium",
+    [
+        8905,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Alt-Fund UI giving error",
+    "Alternative Funding",
+    "Closed",
+    "bansaln",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        8904,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Error occurred during  rebundling process performed on 20130809",
+    "Alternative Funding",
+    "Closed",
+    "kowdeed",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        8894,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Floors on borrow value in Alt fund deals",
+    "Alternative Funding",
+    "Closed",
+    "rajeshkk",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        8872,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] USEQ/OCULUS | Duplicate ARTs posted for transfers on SPN 10070356",
+    "Alternative Funding",
+    "Closed",
+    "vijg",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        8866,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] AltFund Bookings are failing",
+    "Alternative Funding",
+    "Closed",
+    "velezm",
+    "mulani"
+],[
+    "Medium",
+    [
+        8862,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+    ],
+    "Equities_Rebundling failed do not rerun this jobs without margin-dev-ops confirmation",
+    "Alternative Funding",
+    "Closed",
+    "itsm@world",
+    "mulani"
+],[
+    "Medium",
+    [
+        8861,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Adjusting the transfer quantities of seed positions based on the transfers made on the same position and trade date  to avoid rebundling related issues",
+    "Alternative Funding",
+    "Closed",
+    "mulani",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        8851,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] CL's booked on Nova Scotia spns",
+    "Alternative Funding",
+    "Closed",
+    "kowdeed",
+    "kowdeed"
+],[
+    "High",
+    [
+        8843,
+        false,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true
+    ],
+    "[AltFunding] Change Trader on AltFunding deals",
+    "Alternative Funding",
+    "Closed",
+    "hough",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        8841,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Change HSBC Oculus From Tri-Party to Bilateral",
+    "Alternative Funding",
+    "Closed",
+    "kowdeed",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        8838,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+    ],
+    "[Ivy] Detail Management Report - Observed the exception during search",
+    "Alternative Funding",
+    "Open",
+    "sarwam",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        8837,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Error occurred during  rebundling process .",
+    "Alternative Funding",
+    "Closed",
+    "kowdeed",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        8822,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[Alt Fund] Book Trades",
+    "Alternative Funding",
+    "Closed",
+    "velezm",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        8821,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[Alt Fund] Raise HSBC Valence Deal Size",
+    "Alternative Funding",
+    "Closed",
+    "velezm",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        8817,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "Incorrect CL reflected on SPN 10072189",
+    "Alternative Funding",
+    "Closed",
+    "carvalho",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        8799,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Error occurred during  rebundling process .",
+    "Alternative Funding",
+    "Closed",
+    "kowdeed",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        8796,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Enhancements to AltFund rebundling procedure",
+    "Alternative Funding",
+    "Open",
+    "mulani",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        8792,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+    ],
+    "[AltFund] Using ECA in AltFund",
+    "Alternative Funding",
+    "Open",
+    "kowdeed",
+    "-"
+],[
+    "Medium",
+    [
+        8771,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "Ivy Prod2 Error during addWatchList",
+    "Alternative Funding",
+    "Closed",
+    "patils",
+    "mulani"
+],[
+    "Medium",
+    [
+        8769,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Rebundling Trades Appearing In Alt Funding Blotters",
+    "Alternative Funding",
+    "Closed",
+    "velezm",
+    "mulani"
+],[
+    "Medium",
+    [
+        8768,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Exception while adding position to Include/Exclude watchlist",
+    "Alternative Funding",
+    "Closed",
+    "velezm",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        8762,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Error occurred during  rebundling process .",
+    "Alternative Funding",
+    "Closed",
+    "kowdeed",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        8756,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Ops and Maintenance Work",
+    "Alternative Funding",
+    "Open",
+    "penmetss",
+    "penmetss,mulani,kowdeed"
+],[
+    "Medium",
+    [
+        8751,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Approver login field is set incorrectly during the Auto Signoff Process.",
+    "Alternative Funding",
+    "Closed",
+    "kowdeed",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        8739,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Delisted SPNs Showing Up In AltFund UI",
+    "Alternative Funding",
+    "Closed",
+    "velezm",
+    "kowdeed"
+],[
+    "Medium",
+    [
+        8724,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "[AltFund] Prod error occurred while performing some action in Problem Trade Management",
+    "Alternative Funding",
+    "Closed",
+    "mulani",
+    "kowdeed"
+]
+	]
+}
