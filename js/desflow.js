@@ -1,6 +1,14 @@
 var appModule = angular.module("desflow", ['DesflowUtil']);
 
 appModule.controller("RequestCtrl", ["$scope", "$http", "utils", function($scope, $http, utils) {
+	$scope.requestOrder = 'request_id';
+    $scope.reverse = false;
+
+	$scope.setRequestOrder = function(requestField) {
+		$scope.requestOrder = requestField;
+		$scope.reverse = !$scope.reverse;
+	};
+
 	$http.get("data/desflow.json")
 	    .success(function(data){
 			$scope.headers = data["header"];
