@@ -28,6 +28,10 @@ demoAppControllersModule
 }])
 
 .controller("MysiteCtrl", ["$scope", "$routeParams", "Profile", function($scope, $routeParams, Profile) {
-	$scope.fields = Profile.get({username: $routeParams["username"]});
+	$scope.fields =
+		Profile.get({username: $routeParams["username"]},
+			function(profile) {
+				$scope.imageURL = profile["large_img_url"];
+			});
 	console.log($routeParams["username"]);
 }]);
