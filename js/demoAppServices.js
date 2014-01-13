@@ -13,4 +13,5 @@ angular.module('demoAppServices', ["ngResource"])
 
 	.factory('Profile', ["$resource", function($resource) {
 		return $resource("data/mysite.json", {}, {});
+		//return $resource("http://mysiteapi/mysite.svc/emp_info?alias=:username", {}, {});
 	}]);
