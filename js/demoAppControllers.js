@@ -28,5 +28,9 @@ demoAppControllersModule
 }])
 
 .controller("MysiteCtrl", ["$scope", "$routeParams", "$http", function($scope, $routeParams, $http) {
+	$http.get("data/mysite.json")
+		.success(function(data){
+			$scope.fields = data;
+		});
 	console.log($routeParams["username"]);
 }]);
