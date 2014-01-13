@@ -1,5 +1,5 @@
-angular.module('DesflowUtil', [])
-	.factory('utils', function() {
+angular.module('demoAppServices', ["ngResource"])
+	.factory('Utils', function() {
 		return {
 			convertToRequest : function(headersArray, requestArray) {
 				var request = {};
@@ -9,4 +9,8 @@ angular.module('DesflowUtil', [])
 				return request;
 			}
 		};
-	});
+	})
+
+	.factory('Profile', ["$resource", function($resource) {
+		return $resource("data/mysite.json", {}, {});
+	}]);

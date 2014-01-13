@@ -1,7 +1,7 @@
-var demoAppControllersModule = angular.module("demoAppControllers", ["DesflowUtil"]);
+var demoAppControllersModule = angular.module("demoAppControllers", ["demoAppServices"]);
 
 demoAppControllersModule
-.controller("DesflowCtrl", ["$scope", "$http", "utils", function($scope, $http, utils) {
+.controller("DesflowCtrl", ["$scope", "$http", "Utils", function($scope, $http, Utils) {
 	$scope.requestOrder = 'request_id';
     $scope.reverse = false;
 
@@ -16,7 +16,7 @@ demoAppControllersModule
 
 			var requests = [];
 			angular.forEach(data["data"], function(requestArray) {
-				requests.push(utils.convertToRequest($scope.headers, requestArray));
+				requests.push(Utils.convertToRequest($scope.headers, requestArray));
 			});
 			$scope.requests = requests;
 			console.log(requests[0]);
@@ -27,10 +27,7 @@ demoAppControllersModule
 	console.log($routeParams["requestId"]);
 }])
 
-.controller("MysiteCtrl", ["$scope", "$routeParams", "$http", function($scope, $routeParams, $http) {
-	$http.get("data/mysite.json")
-		.success(function(data){
-			$scope.fields = data;
-		});
+.controller("MysiteCtrl", ["$scope", "$routeParams", "Profile", function($scope, $routeParams, Profile) {
+	$scope.fields = Profile.get({username: $routeParams["username"]});
 	console.log($routeParams["username"]);
 }]);
