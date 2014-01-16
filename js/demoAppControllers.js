@@ -1,7 +1,7 @@
 var demoAppControllersModule = angular.module("demoAppControllers", ["demoAppServices"]);
 
 demoAppControllersModule
-.controller("DesflowCtrl", ["$scope", "$http", "Utils", function($scope, $http, Utils) {
+.controller("TestflowCtrl", ["$scope", "$http", "Utils", function($scope, $http, Utils) {
 	$scope.requestOrder = 'request_id';
     $scope.reverse = false;
 
@@ -10,7 +10,7 @@ demoAppControllersModule
 		$scope.reverse = !$scope.reverse;
 	};
 
-	$http.get("data/desflow.json")
+	$http.get("data/testflow.json")
 	    .success(function(data){
 			$scope.headers = data["header"];
 
@@ -23,7 +23,7 @@ demoAppControllersModule
 		});
 }])
 
-.controller("DesflowRequestCtrl", ["$scope", "$routeParams", function($scope, $routeParams) {
+.controller("TestflowRequestCtrl", ["$scope", "$routeParams", function($scope, $routeParams) {
 	console.log($routeParams["requestId"]);
 }])
 

@@ -10,7 +10,7 @@
 		</tr>
 		<tr ng-repeat="request in requests | filter : query | orderBy : requestOrder : !reverse">
 			<td ng-repeat="header in headers">
-				<a href="#/desflow/{{request[header[0]]}}" ng-show="header[0] == 'request_id'">{{request[header[0]]}}</a>
+				<a href="#/testflow/{{request[header[0]]}}" ng-show="header[0] == 'request_id'">{{request[header[0]]}}</a>
 				<a href="#/mysite/{{request[header[0]]}}" ng-show="header[0] == 'logger_ids'">{{request[header[0]]}}</a>
 				<div ng-hide="header[0] == 'request_id' || header[0] == 'logger_ids'">{{request[header[0]]}}</div>
 			</td>

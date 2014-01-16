@@ -2,15 +2,15 @@ var demoAppModule = angular.module("demoApp", ["demoAppControllers", "ngRoute"])
 
 demoAppModule.config(["$routeProvider", function($routeProvider) {
 	$routeProvider.
-	when("/desflow",
+	when("/testflow",
 		{
-			templateUrl : "desflow.html",
-			controller : "DesflowCtrl"
+			templateUrl : "testflow.html",
+			controller : "TestflowCtrl"
 		}).
-	when("/desflow/:requestId",
+	when("/testflow/:requestId",
 		{
-			templateUrl : "desflowRequest.html",
-			controller : "DesflowRequestCtrl"
+			templateUrl : "testflowRequest.html",
+			controller : "TestflowRequestCtrl"
 		}).
 	when("/mysite/:username",
 		{
@@ -19,6 +19,6 @@ demoAppModule.config(["$routeProvider", function($routeProvider) {
 		}).
 	otherwise(
 		{
-			redirectTo : "/desflow"
+			redirectTo : "/testflow"
 		});
 }]);
