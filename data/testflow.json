@@ -58,7 +58,7 @@
     ],
     "abc",
     "Aunding",
-    "Closed",kowdeed
+    "Closed",
     "reshkk",
     "kdeed"
 ],[
@@ -76,7 +76,7 @@
     "[Detail Management] Observed SqlMapException exception during search",
     "No Funding",
     "Closed",
-    "sarwam",
+    "kj",
     "xyz"
 ],[
     "Medium",
@@ -90,7 +90,7 @@
         false,
         false
     ],
-    "[nofund] Changes to book ARTs correctly while performing manual bookings and  when Trade Date = Settle Date",
+    "[nofund] Changes to book correctly while performing manual bookings and  when Trade Date = Settle Date",
     "No Funding",
     "Open",
     "xyz",
@@ -127,7 +127,7 @@
     "[nofund] Observed nofund error messages in the logs",
     "No Funding",
     "Closed",
-    "sarwam",
+    "kj",
     "xyz"
 ],[
     "Medium",
@@ -144,7 +144,7 @@
     "[Detail Management] Rule gets failed for a position which is not part of simulated portfolio",
     "No Funding",
     "Open",
-    "sarwam",
+    "kj",
     "-"
 ],[
     "Medium",
@@ -161,7 +161,7 @@
     "[nofund] Set eligible quantity to 0 for Barclays leg of REDs",
     "No Funding",
     "Closed",
-    "rajeshkk",
+    "kjj",
     "xyz"
 ],[
     "Medium",
@@ -175,7 +175,7 @@
         false,
         false
     ],
-    "[nofund] Issues in HSBC Valport Tranche2 Deal.",
+    "[nofund] Issues in HSBC jklj Deal.",
     "No Funding",
     "Open",
     "xyz",
@@ -192,11 +192,11 @@
         false,
         false
     ],
-    "Incorrect PNL on (WWW US) - USEQ/VAL",
+    "Incorrect PNL on (WWW US) - UEQ/VAL",
     "No Funding",
     "Active",
-    "chinnapr",
-    "hough"
+    "chnapr",
+    "hugh"
 ],[
     "Medium",
     [
@@ -209,7 +209,7 @@
         false,
         true
     ],
-    "[nofund] Cancelling the duplicate CLTs booked.",
+    "[nofund] Cancelling the duplicate CTs booked.",
     "No Funding",
     "Closed",
     "xyz",
@@ -226,7 +226,7 @@
         false,
         true
     ],
-    "[nofund] Remove Rounding on Recommended Quantity in the cases where the Recommended Quantity is less than 1000.",
+    "[nofund] Remove Rounding ecommended Quantity is less than 1000.",
     "No Funding",
     "Closed",
     "xyz",
@@ -246,7 +246,7 @@
     "[nofund] Sort the Deals in UI search panel alphabetically",
     "No Funding",
     "Open",
-    "sarwam",
+    "saam",
     "xyz"
 ],[
     "Medium",
@@ -280,8 +280,8 @@
     "[nofund] Ops and Maintenance Work",
     "No Funding",
     "Open",
-    "penmetss",
-    "penmetss,abc,xyz"
+    "penmes",
+    "pentss,abc,xyz"
 ],[
     "Medium",
     [
@@ -314,7 +314,7 @@
     "[nofund] Delisted SPNs Showing Up In nofund UI",
     "No Funding",
     "Closed",
-    "velezm",
+    "vezm",
     "xyz"
 ],[
     "Medium",
