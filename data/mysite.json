@@ -26,13 +26,13 @@
     "subdept": "Middle Office",
     "manager": [
         [
-            "Sravanthi Penmetsa",
-            "penmetss"
+            "abc",
+            "abc"
         ]
     ],
     "assistant": [],
     "cur_project": [
-        "Alternative Funding"
+        "Aing"
     ],
     "skills": [
         "Flex",
@@ -44,9 +44,8 @@
         "Struts 2"
     ],
     "past_project": [
-        "ETL Framework",
-        "Prism",
-        "Reporting for Treasury"
+        "123",
+        "456"
     ],
     "prevemp": null,
     "schools": [
